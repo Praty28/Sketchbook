@@ -5,6 +5,8 @@ Global Styles
  * {
      margin: 0px;
      padding: 0px;
+     --spacing: 0px;
+     --min-card-width: 25gitpx;
  }
 
 
@@ -12,17 +14,21 @@ Global Styles
 Components
 ============== */
 
-#container {
-    
-    width: 960px;
-    height: 960px;
-    background-color: cornflowerblue;
-    display: grid;
-
-}
-
 .blue {
-    width:5px;
-    height:5px;
+    width:20px;
+    height:20px;
     background-color: crimson;
 }
+
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
+  
+
+
+}
+
