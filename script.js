@@ -9,3 +9,7 @@ function addDivs(input) {
 
 addDivs(16);
 
+let divs = document.querySelectorAll('div');
+for (i=0; i < divs.length; i++) {
+ divs[i].classList.add('blue');
+}
