@@ -1,0 +1,17 @@
+/* ==============
+Global Styles 
+============== */
+
+
+
+
+/* ==============
+Components
+============== */
+
+#container {
+    margin: 200px;
+    width: 960px;
+    height: 960px;
+    background-color: cornflowerblue;
+}
