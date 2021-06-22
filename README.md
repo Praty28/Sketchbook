@@ -2,7 +2,7 @@
 
 This an online sketchboard that works on a grid of 50x50 suqare divs.
 
-Features 
+How to use - 
 
 1. Hold left mouse button and drag to draw a pattern.
 
