@@ -14,10 +14,10 @@ Global Styles
 Components
 ============== */
 
-.blue {
-    width:20px;
-    height:20px;
-    background-color: crimson;
+#parentDiv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 #container {
