@@ -24,6 +24,14 @@ Components
     width: 500px;
     height: 500px;
     background-color: cornflowerblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
     
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
