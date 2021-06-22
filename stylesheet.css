@@ -33,9 +33,12 @@ Components
     
 }
     
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
-  
+
+.blue {
+    width: 6.25%;
+    height:6.25%;
+    border: 1px dashed red;
+   
 
 
 }
