@@ -7,24 +7,21 @@ function addDivs(input) {
     }
 }
 
-addDivs(16);
+addDivs(20);
 
 const divs = document.querySelectorAll('div:not(#parentDiv):not(#container)');
 for (i=0; i < divs.length; i++) {
  divs[i].classList.add('blue');
-
 }
 
 
-
-for (let e=0; e < divs.length; e++) {
+for (let e = 0; e < divs.length; e++) {
     
-    divs[e].addEventListener('mouseover', getIndex);
+    divs[e].addEventListener('mouseover', () => {divs[e].classList.add('pink');
+    console.log(e);
+});
   
-    var getIndex = function () {
-        divs[e].classList.add('pink');
-        console.log(e);
-    }
+
 }
 
 
