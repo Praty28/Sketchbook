@@ -32,5 +32,3 @@ const clearGrid = document.querySelector('.clearGrid');
 clearGrid.addEventListener('click', () => { divs.forEach(function(el) {
     el.classList.remove("pink")
   })});
-
-
