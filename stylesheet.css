@@ -32,7 +32,7 @@ Components
     top: 50%;
     transform: translate(-50%, -50%);
     display: grid;
-    grid-template-columns: repeat(100, 1fr);
+    grid-template-columns: repeat(50, 1fr);
     
     
 }
@@ -40,7 +40,7 @@ Components
 
 .blue {
 
-    
+    background-color: white;
    
 }
 
