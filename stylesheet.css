@@ -3,8 +3,9 @@ Global Styles
 ============== */
 
  * {
-     margin: 0px;
-     padding: 0px;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
      --spacing: 0px;
      --min-card-width: 25gitpx;
  }
@@ -19,7 +20,6 @@ Components
     height: 100vh;
     position: relative;
 }
-
 #container {
     width: 500px;
     height: 500px;
@@ -32,18 +32,19 @@ Components
     flex-wrap: wrap;
     
 }
-    
+
 
 .blue {
     width: 6.25%;
     height:6.25%;
     border: 1px dashed red;
    
+}
 
 .pink {
     width: 6.25%;
     height:6.25%;
     background-color: yellow;
-
+   
 }
 
