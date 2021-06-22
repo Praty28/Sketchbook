@@ -28,22 +28,19 @@ Components
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    
     
 }
 
 
 .blue {
-    width: 6.25%;
-    height:6.25%;
     border: 1px dashed red;
    
 }
 
 .pink {
-    width: 6.25%;
-    height:6.25%;
     background-color: yellow;
    
 }
