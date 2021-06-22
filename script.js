@@ -7,23 +7,20 @@ function addDivs(input) {
     }
 }
 
-addDivs(20);
+addDivs(100);
 
 const divs = document.querySelectorAll('div:not(#parentDiv):not(#container)');
 for (i=0; i < divs.length; i++) {
  divs[i].classList.add('blue');
 }
 
-
 for (let e = 0; e < divs.length; e++) {
     
-    divs[e].addEventListener('mouseover', () => {divs[e].classList.add('pink');
-    console.log(e);
-});
-  
+    divs[e].addEventListener('mouseover', (f) => {if (f.buttons == 1 || f.buttons == 3){
+        
+        divs[e].classList.add('pink');}
+
+    })
 
 }
-
-
-
 
