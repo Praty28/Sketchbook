@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" draggable="false">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
-    <div id="parentDiv">
+<body onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false">
+    <div id="parentDiv" draggable="false">
     <div id="container"></div>
 </div>
     <script src="script.js"></script>
