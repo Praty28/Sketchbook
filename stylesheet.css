@@ -40,6 +40,10 @@ Components
     border: 1px dashed red;
    
 
+.pink {
+    width: 6.25%;
+    height:6.25%;
+    background-color: yellow;
 
 }
 
