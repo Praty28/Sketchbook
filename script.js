@@ -9,7 +9,7 @@ function addDivs(input) {
 
 addDivs(16);
 
-let divs = document.querySelectorAll('div');
+const divs = document.querySelectorAll('div:not(#parentDiv):not(#container)');
 for (i=0; i < divs.length; i++) {
  divs[i].classList.add('blue');
 }
